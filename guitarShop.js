@@ -21,6 +21,14 @@ class ClassicGuitar{
         return this.manufacture;
     }
 
+    get price(){
+        return this.price
+    }
+
+    set changePrice(val) {
+        this.guitarPrice = val
+    }
+
     get id() {
         return this.#id
     }
