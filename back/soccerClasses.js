@@ -62,7 +62,7 @@ class Player extends Person{
 
 }
 
-class goalKeeper extends Person{
+class GoalKeeper extends Person{
     constructor(_firstName , _sureName , _salary , _age , _id , _isLeftHanded = false , _lastGoalConceded = moment().format("dddd, MMMM Do YYYY, h:mm:ss a")){
         super(_firstName , _sureName , _salary , _age , _id)
         this.gIsleftHanded = _isLeftHanded;
@@ -87,6 +87,4 @@ class goalKeeper extends Person{
     }
 }
 
-const avi = new Person("ziv" , "serphos" , "100000" , "34 " , ":-)")
-const aviv = new goalKeeper("aviv" , "yamin" , "1500000" , "25" , "Sabih" , true , "never")
-const nadav = new Player("nadav" , "cohen" ,"10000" , "25" , "38848808" , "right" , "Striker" , "CCCCCCCCCCCCCC")
+module.exports = {Person , Player , GoalKeeper}
