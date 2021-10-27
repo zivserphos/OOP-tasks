@@ -1,9 +1,13 @@
+
+
 .pitch{
+    display: inline-block;
     background-color: #238729;
     width: 590px;
     height: 380px;
     position: relative;
 }
+
 .pitch:after{
   content: "";
   border-left: 1px solid white;
@@ -98,13 +102,14 @@
 .player{
   position:absolute;
   border-radius:50%;
-  width:10px;
-  height:10px;
+  width:22px;
+  height:22px;
+  font-weight: bold;
 }
 .player:after{
-  font-size:10px;
+  font-size:17px;
   position:absolute;
-  left:3px;
+  left:5px;
 }
 .home-team .player{
   background:red;
