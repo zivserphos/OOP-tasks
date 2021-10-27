@@ -11,7 +11,6 @@ app.use(express.json())
 app.use("/player", playerRouter)
 app.use(errorHandlers)
 
-
 app.listen(port, function() {
     console.log('app started');
   });
