@@ -1,3 +1,0 @@
-const dataBase = ["undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]","undefined: [object Object]",{"firstName":"nadav","sureName":"cohen","salary":"10000","age":"25","id":"38848808","strongLeg":"right","position":"Striker","celebrationSentence":"CCCCCCCCCCCCCC"}] 
-
- module.exports = dataBase
